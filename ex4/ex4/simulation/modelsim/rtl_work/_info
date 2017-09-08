@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex4\simulation\modelsim
+vex4
+IT]Klh_nje_Bki19`DgN9M0
+VF>H2^<^ozmPKSOKVXS?d[3
+Z1 dD:\FpgaExample\ex4\simulation\modelsim
+w1384772838
+8D:/FpgaExample/ex4/ex4.v
+FD:/FpgaExample/ex4/ex4.v
+L0 1
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 C4TUZC?HOfT]a[@P<h][D0
+!s85 0
+!s108 1384773602.453000
+!s107 D:/FpgaExample/ex4/ex4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex4|D:/FpgaExample/ex4/ex4.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex4 -O0
+vex4_vlg_tst
+!s100 gPUFSQI:bmORneSEN4IO@1
+IoZ1RbiAQ3XHF47Jo9GdgE2
+VFnJRIA[=]lK;POKUm:QeN3
+R1
+w1384773582
+8D:/FpgaExample/ex4/simulation/modelsim/ex4.vt
+FD:/FpgaExample/ex4/simulation/modelsim/ex4.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1384773602.578000
+!s107 D:/FpgaExample/ex4/simulation/modelsim/ex4.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex4/simulation/modelsim|D:/FpgaExample/ex4/simulation/modelsim/ex4.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex4/simulation/modelsim -O0

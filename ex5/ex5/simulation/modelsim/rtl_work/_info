@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex5\simulation\modelsim
+vex5
+I3e_7;L2WZUO;XMC@Qz3A02
+VJidfl;A`2Ug:CZhHc<HQR1
+Z1 dD:\FpgaExample\ex5\simulation\modelsim
+w1384862783
+8D:/FpgaExample/ex5/ex5.v
+FD:/FpgaExample/ex5/ex5.v
+L0 1
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 cz]K?n>Bj39f`79V:K_jh1
+!s85 0
+!s108 1384862816.265000
+!s107 D:/FpgaExample/ex5/ex5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex5|D:/FpgaExample/ex5/ex5.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex5 -O0
+vex5_vlg_tst
+!s100 77PmT]PU>;XFeXTdQ1;Q51
+I?OMJ2lO:^2Namk6l[:X6]3
+VnfEQfJ1CB5X6N=2Ao:Vkm2
+R1
+w1384862281
+8D:/FpgaExample/ex5/simulation/modelsim/ex5.vt
+FD:/FpgaExample/ex5/simulation/modelsim/ex5.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1384862816.343000
+!s107 D:/FpgaExample/ex5/simulation/modelsim/ex5.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex5/simulation/modelsim|D:/FpgaExample/ex5/simulation/modelsim/ex5.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex5/simulation/modelsim -O0

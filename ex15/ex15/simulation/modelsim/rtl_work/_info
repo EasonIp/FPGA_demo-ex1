@@ -1,0 +1,62 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex13\simulation\modelsim
+vex13
+I]b8M7=4^QM7^]]RSUeaEY2
+V4KW:Wf]n6zE^g=cb>^nIH0
+Z1 dD:\FpgaExample\ex13\simulation\modelsim
+w1388144932
+8D:/FpgaExample/ex13/ex13.v
+FD:/FpgaExample/ex13/ex13.v
+L0 2
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex13 -O0
+!s100 0dDLJZQF>>QNeeUKgziG33
+!s85 0
+!s108 1388145428.906000
+!s107 D:/FpgaExample/ex13/ex13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex13|D:/FpgaExample/ex13/ex13.v|
+!s101 -O0
+vex13_vlg_tst
+!s100 Rkc8LU`i;[cA^_a<LcaMc0
+I?o9aAVWXc[Sf^Xg<GS20J1
+Viz^iARje9WAdFNczlS1>=0
+R1
+w1388145390
+8D:/FpgaExample/ex13/simulation/modelsim/ex13.vt
+FD:/FpgaExample/ex13/simulation/modelsim/ex13.vt
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1388145429.015000
+!s107 D:/FpgaExample/ex13/simulation/modelsim/ex13.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex13/simulation/modelsim|D:/FpgaExample/ex13/simulation/modelsim/ex13.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex13/simulation/modelsim -O0
+vex_rom
+If?iLl4cc_]CVKH^HOLXKc2
+VY7EH3=`B8`IUodkD>0FY>0
+R1
+w1388144311
+8D:/FpgaExample/ex13/ex_rom.v
+FD:/FpgaExample/ex13/ex_rom.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!s100 hZFWFg6?`K=3^ZTW`lP6d3
+!s85 0
+!s108 1388145428.812000
+!s107 D:/FpgaExample/ex13/ex_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex13|D:/FpgaExample/ex13/ex_rom.v|
+!s101 -O0

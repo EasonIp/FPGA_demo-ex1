@@ -1,0 +1,13 @@
+
+State Machine - |ex21|cstate
+Name cstate.STOP cstate.ACK4 cstate.ACK3 cstate.LSBI cstate.ACK2 cstate.CMSB cstate.ACK1 cstate.ADDR cstate.START cstate.IDLE 
+cstate.IDLE 0 0 0 0 0 0 0 0 0 0 
+cstate.START 0 0 0 0 0 0 0 0 1 1 
+cstate.ADDR 0 0 0 0 0 0 0 1 0 1 
+cstate.ACK1 0 0 0 0 0 0 1 0 0 1 
+cstate.CMSB 0 0 0 0 0 1 0 0 0 1 
+cstate.ACK2 0 0 0 0 1 0 0 0 0 1 
+cstate.LSBI 0 0 0 1 0 0 0 0 0 1 
+cstate.ACK3 0 0 1 0 0 0 0 0 0 1 
+cstate.ACK4 0 1 0 0 0 0 0 0 0 1 
+cstate.STOP 1 0 0 0 0 0 0 0 0 1 

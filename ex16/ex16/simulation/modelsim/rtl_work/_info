@@ -1,0 +1,100 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex16\simulation\modelsim
+vex13
+I[be[i2Ak^NDC8Na0BDZ=l0
+V6l=l7JaHfoThFCJ>>]KZ?1
+Z1 dD:\FpgaExample\ex16\simulation\modelsim
+w1389402186
+8D:/FpgaExample/ex16/ex13.v
+FD:/FpgaExample/ex16/ex13.v
+L0 1
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex16 -O0
+!s100 7__^Ed<674D<MmC?mh1eo2
+!s85 0
+!s108 1389404736.781000
+!s107 D:/FpgaExample/ex16/ex13.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex16|D:/FpgaExample/ex16/ex13.v|
+!s101 -O0
+vex13_vlg_tst
+!s100 >MfObCcEA`ClS80VT3JEm3
+IIBV<o;>TnS64WK<3mDQ881
+Viz^iARje9WAdFNczlS1>=0
+R1
+w1389404683
+8D:/FpgaExample/ex16/simulation/modelsim/ex13.vt
+FD:/FpgaExample/ex16/simulation/modelsim/ex13.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1389404736.968000
+!s107 D:/FpgaExample/ex16/simulation/modelsim/ex13.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex16/simulation/modelsim|D:/FpgaExample/ex16/simulation/modelsim/ex13.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex16/simulation/modelsim -O0
+vex_fifo
+IIO5nWQ1eMO3UB[4Q:DNkN2
+VFZ6fYG^UEDz:zV_:>N29d2
+R1
+w1389402124
+8D:/FpgaExample/ex16/ex_fifo.v
+FD:/FpgaExample/ex16/ex_fifo.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!s100 THf97b@@7fNQo8?gMROS:0
+!s85 0
+!s108 1389404736.609000
+!s107 D:/FpgaExample/ex16/ex_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex16|D:/FpgaExample/ex16/ex_fifo.v|
+!s101 -O0
+vex_ram
+IeRTU7Z^VTS7?oo4mUb?Ij2
+V0P6nSBGM<Ie_>hej0Z6l30
+R1
+w1389402157
+8D:/FpgaExample/ex16/ex_ram.v
+FD:/FpgaExample/ex16/ex_ram.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!s100 _azFF;4RIV[22l0fz^FRU1
+!s85 0
+!s108 1389404736.421000
+!s107 D:/FpgaExample/ex16/ex_ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex16|D:/FpgaExample/ex16/ex_ram.v|
+!s101 -O0
+vex_rom
+IPdH;6la1PfaN]UAAS`inD3
+VY7EH3=`B8`IUodkD>0FY>0
+R1
+w1388144311
+8D:/FpgaExample/ex16/ex_rom.v
+FD:/FpgaExample/ex16/ex_rom.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!s100 hZFWFg6?`K=3^ZTW`lP6d3
+!s85 0
+!s108 1389404736.093000
+!s107 D:/FpgaExample/ex16/ex_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex16|D:/FpgaExample/ex16/ex_rom.v|
+!s101 -O0

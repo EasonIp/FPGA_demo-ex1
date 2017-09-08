@@ -1,0 +1,93 @@
+`timescale 1 ns/ 1 ps
+module ex5_vlg_tst();
+//被测试设计的输入信号，对应为测试脚本的输出信号
+reg clk;
+reg rst_n;                                           
+//被试设计的输出信号，对应为测试脚本的输入信号
+wire[7:0] seg_db;														
+wire[3:0] seg_cs;	
+
+//例化被测试设计的顶层设计接口
+ex5 i1 ( 
+//引脚信号映射
+	.clk(clk),
+	.seg_db(seg_db),
+	.seg_cs(seg_cs),
+	.rst_n(rst_n)
+);
+
+//数码管显示 0~F 对应段选输出
+parameter 	SEG_NUM0 	= 8'h3f,//c0,
+			SEG_NUM1 	= 8'h06,//f9,
+			SEG_NUM2 	= 8'h5b,//a4,
+			SEG_NUM3 	= 8'h4f,//b0,
+			SEG_NUM4 	= 8'h66,//99,
+			SEG_NUM5 	= 8'h6d,//92,
+			SEG_NUM6 	= 8'h7d,//82,
+			SEG_NUM7 	= 8'h07,//F8,
+			SEG_NUM8 	= 8'h7f,//80,
+			SEG_NUM9 	= 8'h6f,//90,
+			SEG_NUMA 	= 8'h77,//88,
+			SEG_NUMB 	= 8'h7c,//83,
+			SEG_NUMC 	= 8'h39,//c6,
+			SEG_NUMD 	= 8'h5e,//a1,
+			SEG_NUME 	= 8'h79,//86,
+			SEG_NUMF 	= 8'h71;//8e;
+
+initial begin   
+//复位信号产生                                                                                           
+	rst_n = 0;															
+	clk = 0;															
+	#1000;																
+	@(posedge clk);														
+	rst_n = 1;	
+	//仿真运行20s后结束（我们的延时符号#后面的参数通常是32位的，注意避免溢出）
+	repeat(40) #500_000_000;
+	$stop;																
+end                                                    
+
+//模拟25MHz（周期40ns）时钟信号产生
+always #20 clk = ~clk;      											
+
+reg[7:0] a[3:0];
+
+//监视设计输出信号seg_db和seg_cs的变化，一旦有变化则输出当前译码显示值
+always @(seg_db or seg_cs) begin			
+	if(!seg_cs[3]) seg_display(a[0]);
+	else a[0] = "X";
+	if(!seg_cs[2]) seg_display(a[1]);
+	else a[1] = "X";
+	if(!seg_cs[1]) seg_display(a[2]);
+	else a[2] = "X";
+	if(!seg_cs[0]) seg_display(a[3]);
+	else a[3] = "X";
+	$display("time :%t,Current display value is %c%c%c%c.",$time,a[0],a[1],a[2],a[3]);		
+end
+
+//数码管驱动显示译码任务
+task seg_display;
+	output[7:0] db;
+	begin
+		case(seg_db)
+			SEG_NUM0: db = "0";
+			SEG_NUM1: db = "1";
+			SEG_NUM2: db = "2";
+			SEG_NUM3: db = "3";
+			SEG_NUM4: db = "4";
+			SEG_NUM5: db = "5";
+			SEG_NUM6: db = "6";
+			SEG_NUM7: db = "7";
+			SEG_NUM8: db = "8";
+			SEG_NUM9: db = "9";
+			SEG_NUMA: db = "A";
+			SEG_NUMB: db = "B";
+			SEG_NUMC: db = "C";
+			SEG_NUMD: db = "D";
+			SEG_NUME: db = "E";
+			SEG_NUMF: db = "F";
+			default: db = "Z";
+		endcase
+	end
+endtask
+		
+endmodule

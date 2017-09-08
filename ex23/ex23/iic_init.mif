@@ -1,0 +1,144 @@
+-- Copyright (C) 1991-2011 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- Quartus II generated Memory Initialization File (.mif)
+
+WIDTH=16;
+DEPTH=128;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	00  :   3A04;
+	01	: 	67c0;
+	02	: 	6880;
+	03  :   40d0;
+	04  :   1214;
+	05  :   3280;
+	06  :   1716;
+	07  :   1804;
+	08  :   1902;
+	09  :   1a7a;
+	0A  :   0305;
+	0B  :   0c00;
+	0C  :   3e00;
+	0D  :   7000;
+	0E  :   7101;
+	0F  :   7211;
+	10  :   7300;
+	11  :   a202;
+	12  :   11c0;
+	13  :   7a20;
+	14  :   7b1c;
+	15  :   7c28;
+	16  :   7c28;
+	17  :   7d3c;
+	18  :   7e55;
+	19  :   7f68;
+	1A  :   8076;
+	1B  :   8180;
+	1C  :   8288;
+	1D  :   838f;
+	1E  :   8496;
+	1F  :   85a3;
+	20  :   86af;
+	21  :   87c4;
+	22  :   88d7;
+	23  :   89e8;
+	24  :   13e0;
+	25  :   0000;
+	26  :   1000;
+	27  :   0d00;
+	28  :   1410;
+	29  :   a505;
+	2A  :   ab07;
+	2B	:	248a;
+	2C  :   2573;
+	2D  :   26a5;
+	2E  :   9f78;
+	2F  :   a068;
+	30  :   a103;
+	31  :   a6df;
+	32  :   a7df;
+	33  :   a8f0;
+	34  :   a990;
+	35  :   aa94;
+	36  :   13e5;
+	37  :   0e61;
+	38  :   0f4b;
+	39  :   1602;
+	3A  :   1e31;
+	3B  :   2102;
+	3C  :   2291;
+	3D  :   2907;
+	3E  :   330b;
+	3F  :   350b;
+	40  :   371d;
+	41  :   3871;
+	42  :   392a;
+	43  :   3c78;
+	44  :   4d40;
+	45  :   4e20;
+	46  :   695d;
+	47  :   6b40;
+	48  :   7419;
+	49  :   8d4f;
+	4A  :   8e00;
+	4B  :   8f00;
+	4C  :   9000;
+	4D  :   9100;
+	4E  :   9200;
+	4F  :   9600;
+	50  :   9a80;
+	51  :   b084;
+	52  :   b10c;
+	53  :   b20e;
+	54  :   b382;
+	55  :   b80a;
+	56  :   4314;
+	57  :   44f0;
+	58  :   4534;
+	59  :   4658;
+	5A  :   4728;
+	5B  :   483a;
+	5C  :   5988;
+	5D  :   5a88;
+	5E  :   5b44;
+	5F  :   5c67;
+	60  :   5d49;
+	61  :   5e0e;
+	62  :   6404;
+	63  :   6520;
+	64  :   6605;
+	65  :   9404;
+	66  :   9508;
+	67  :   6c0a;
+	68  :   6d55;
+	69  :   4f99;
+	6A  :   5099;
+	6B  :   5100;
+	6C  :   5228;
+	6D  :   5370;
+	6E  :   5499;
+	6F  :   589e;
+	70  :   76e1;
+	71  :   1101;
+	72	:	6e11;
+	73	:	6f9f;
+	74	:	5500;
+	75	:	564a;
+	76	:	5780;
+	[77..7F]  :   0000;
+END;

@@ -1,0 +1,9 @@
+
+State Machine - |ex20|cstate
+Name cstate.TWHDL cstate.STOP cstate.DTRAN cstate.START cstate.TSUDL cstate.IDLE 
+cstate.IDLE 0 0 0 0 0 0 
+cstate.TSUDL 0 0 0 0 1 1 
+cstate.START 0 0 0 1 0 1 
+cstate.DTRAN 0 0 1 0 0 1 
+cstate.STOP 0 1 0 0 0 1 
+cstate.TWHDL 1 0 0 0 0 1 

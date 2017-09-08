@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex3\simulation\modelsim
+vex3
+Ig3liU3dWB_FPRYXD[8R6Y3
+V[XGRP7cTcTiWGN<e1lfjh1
+Z1 dD:\FpgaExample\ex3\simulation\modelsim
+w1384592382
+8D:/FpgaExample/ex3/ex3.v
+FD:/FpgaExample/ex3/ex3.v
+L0 1
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 AfQ<8SL[zo6RQ<ei=7:n93
+!s85 0
+!s108 1384772553.609000
+!s107 D:/FpgaExample/ex3/ex3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex3|D:/FpgaExample/ex3/ex3.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex3 -O0
+vex3_vlg_tst
+!s100 J3I0E=Lz<2HY:NH>3ajC;0
+IXGZGi`9TJ2eZ8_Z9d;m5X3
+VTMjoh?j0lfmHccQ^eg5T:2
+R1
+w1384772541
+8D:/FpgaExample/ex3/simulation/modelsim/ex3.vt
+FD:/FpgaExample/ex3/simulation/modelsim/ex3.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1384772553.718000
+!s107 D:/FpgaExample/ex3/simulation/modelsim/ex3.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex3/simulation/modelsim|D:/FpgaExample/ex3/simulation/modelsim/ex3.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex3/simulation/modelsim -O0

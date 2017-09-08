@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ex23">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex23|video_input:uut_videoinput|iic_gene:uut_iicgene|iic_initrom:uut_iicinitrom|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_be91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex23|video_input:uut_videoinput|video_ctrl:uut_videoctrl|video_fifo:uut_videofifo|dcfifo_mixed_widths:dcfifo_mixed_widths_component" CBX_FILE_NAME="dcfifo_jdj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex23|sdfifo_ctrl:uut_sdffifoctrl|rdfifo:uut_rdfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_mfj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex23|sdfifo_ctrl:uut_sdffifoctrl|wrfifo:uut_wrfifo|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_mfj1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex23|sys_ctrl:uut_sysctrl|mypll:mypll_inst|altpll:altpll_component" CBX_FILE_NAME="mypll_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

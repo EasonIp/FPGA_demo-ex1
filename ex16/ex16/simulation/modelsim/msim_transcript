@@ -1,0 +1,104 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex13_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex16 {D:/FpgaExample/ex16/ex_rom.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex_rom
+# 
+# Top level modules:
+# 	ex_rom
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex16 {D:/FpgaExample/ex16/ex_ram.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex_ram
+# 
+# Top level modules:
+# 	ex_ram
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex16 {D:/FpgaExample/ex16/ex_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex_fifo
+# 
+# Top level modules:
+# 	ex_fifo
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex16 {D:/FpgaExample/ex16/ex13.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex13
+# 
+# Top level modules:
+# 	ex13
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex16/simulation/modelsim {D:/FpgaExample/ex16/simulation/modelsim/ex13.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex13_vlg_tst
+# 
+# Top level modules:
+# 	ex13_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex13_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex13_vlg_tst 
+# Loading work.ex13_vlg_tst
+# Loading work.ex13
+# Loading work.ex_rom
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ex_fifo
+# Loading altera_mf_ver.dcfifo
+# Loading altera_mf_ver.dcfifo_mixed_widths
+# Loading altera_mf_ver.dcfifo_low_latency
+# Loading altera_mf_ver.ALTERA_MF_HINT_EVALUATION
+# Loading altera_mf_ver.dcfifo_dffpipe
+# Loading work.ex_ram
+# Loading altera_mf_ver.dcfifo_async
+# Loading altera_mf_ver.dcfifo_fefifo
+# ** Warning: (vsim-3015) D:/FpgaExample/ex16/ex13.v(75): [PCDPC] - Port size (6 or 6) does not match connection size (5) for port 'rdusedw'. The port definition is at: D:/FpgaExample/ex16/ex_fifo.v(47).
+#         Region: /ex13_vlg_tst/i1/ex_fifo_inst
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  
+add wave  \
+sim:/ex13_vlg_tst/i1/fifo_dout \
+sim:/ex13_vlg_tst/i1/ram_addr \
+sim:/ex13_vlg_tst/i1/ram_wren
+add wave  \
+sim:/ex13_vlg_tst/i1/ex_ram_inst/altsyncram_component/mem_data
+restart
+# ** Warning: (vsim-3015) D:/FpgaExample/ex16/ex13.v(75): [PCDPC] - Port size (6 or 6) does not match connection size (5) for port 'rdusedw'. The port definition is at: D:/FpgaExample/ex16/ex_fifo.v(47).
+#         Region: /ex13_vlg_tst/i1/ex_fifo_inst
+run -all
+# Break key hit 
+# Break in Module ex13 at D:/FpgaExample/ex16/ex13.v line 52
+add wave  \
+sim:/ex13_vlg_tst/i1/cnt
+restart
+# ** Warning: (vsim-3015) D:/FpgaExample/ex16/ex13.v(75): [PCDPC] - Port size (6 or 6) does not match connection size (5) for port 'rdusedw'. The port definition is at: D:/FpgaExample/ex16/ex_fifo.v(47).
+#         Region: /ex13_vlg_tst/i1/ex_fifo_inst
+run -all
+# Break key hit 
+# Simulation stop requested.
+add wave  \
+sim:/ex13_vlg_tst/i1/rom_dout \
+sim:/ex13_vlg_tst/i1/rom_addr \
+sim:/ex13_vlg_tst/i1/fifo_wrreq
+restart
+# ** Warning: (vsim-3015) D:/FpgaExample/ex16/ex13.v(75): [PCDPC] - Port size (6 or 6) does not match connection size (5) for port 'rdusedw'. The port definition is at: D:/FpgaExample/ex16/ex_fifo.v(47).
+#         Region: /ex13_vlg_tst/i1/ex_fifo_inst
+run -all
+# Break key hit 
+# Simulation stop requested.
+run -all
+# Break key hit 
+# Simulation stop requested.

@@ -1,0 +1,36 @@
+`timescale 1 ns/ 1 ps
+module ex3_vlg_tst();
+
+//被测试设计的输入信号，对应为测试脚本的输出信号
+reg clk;
+reg rst_n;                                           
+//被试设计的输出信号，对应为测试脚本的输入信号
+wire[7:0] led;
+
+//例化被测试设计的顶层设计接口
+ex3 i1 ( 
+//引脚信号映射
+	.clk(clk),
+	.led(led),
+	.rst_n(rst_n)
+);
+
+initial begin       
+//复位信号产生                                            
+	rst_n = 0;															
+	clk = 0;															
+	#1000;																
+	@(posedge clk);														
+	rst_n = 1;			
+	//运行1s终止												
+	#1000_000_000;														
+	$stop;																
+end                                                    
+
+//模拟25MHz（周期40ns）时钟信号产生
+always #20 clk = ~clk;      											
+
+//监视设计输出信号led[7:0]的变化，一旦有变化则输出当前值和运行时间
+always @(led)													
+	$display("Current LED output value is %08b,time :%t\n",led,$time);					
+endmodule

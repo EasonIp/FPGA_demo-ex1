@@ -1,0 +1,65 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex12_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex12 {D:/FpgaExample/ex12/my_pll.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module my_pll
+# 
+# Top level modules:
+# 	my_pll
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex12 {D:/FpgaExample/ex12/ex12.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex12
+# 
+# Top level modules:
+# 	ex12
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex12/db {D:/FpgaExample/ex12/db/my_pll_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module my_pll_altpll
+# 
+# Top level modules:
+# 	my_pll_altpll
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex12/simulation/modelsim {D:/FpgaExample/ex12/simulation/modelsim/ex12.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex12_vlg_tst
+# 
+# Top level modules:
+# 	ex12_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex12_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex12_vlg_tst 
+# Loading work.ex12_vlg_tst
+# Loading work.ex12
+# Loading work.my_pll
+# Loading altera_mf_ver.altpll
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.pll_iobuf
+# Loading altera_mf_ver.MF_cycloneiii_pll
+# Loading altera_mf_ver.cda_m_cntr
+# Loading altera_mf_ver.cda_n_cntr
+# Loading altera_mf_ver.cda_scale_cntr
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#  Note : Cyclone III PLL was reset
+# Time: 0  Instance: ex12_vlg_tst.i1.my_pll_inst.altpll_component.cycloneiii_pll.pll3
+#                    0led value = 0
+# 
+#  Note : Cyclone III PLL locked to incoming clock
+# Time: 1140000  Instance: ex12_vlg_tst.i1.my_pll_inst.altpll_component.cycloneiii_pll.pll3
+# Break key hit 
+# Break in Module MF_cycloneiii_pll at c:/altera/12.0/modelsim_ase/win32aloem/../altera/verilog/src/altera_mf.v line 16727

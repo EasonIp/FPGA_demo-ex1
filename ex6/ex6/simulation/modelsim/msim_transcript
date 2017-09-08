@@ -1,0 +1,40 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex6_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex6 {D:/FpgaExample/ex6/ex6.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex6
+# 
+# Top level modules:
+# 	ex6
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex6/simulation/modelsim {D:/FpgaExample/ex6/simulation/modelsim/ex6.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex6_vlg_tst
+# 
+# Top level modules:
+# 	ex6_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex6_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex6_vlg_tst 
+# Loading work.ex6_vlg_tst
+# Loading work.ex6
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module ex6_vlg_tst at D:/FpgaExample/ex6/simulation/modelsim/ex6.vt line 39
+# Simulation Breakpoint: Break in Module ex6_vlg_tst at D:/FpgaExample/ex6/simulation/modelsim/ex6.vt line 39
+# MACRO ./ex6_run_msim_rtl_verilog.do PAUSED at line 17

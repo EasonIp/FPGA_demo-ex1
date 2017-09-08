@@ -1,0 +1,90 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex3_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex3 {D:/FpgaExample/ex3/ex3.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex3
+# 
+# Top level modules:
+# 	ex3
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex3/simulation/modelsim {D:/FpgaExample/ex3/simulation/modelsim/ex3.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex3_vlg_tst
+# 
+# Top level modules:
+# 	ex3_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex3_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex3_vlg_tst 
+# Loading work.ex3_vlg_tst
+# Loading work.ex3
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Current LED output value is 11111110,time :                   0
+# 
+# Current LED output value is 11111101,time :         40001020000
+# 
+# Current LED output value is 11111011,time :         80001020000
+# 
+# Current LED output value is 11110111,time :        120001020000
+# 
+# Current LED output value is 11101111,time :        160001020000
+# 
+# Current LED output value is 11011111,time :        200001020000
+# 
+# Current LED output value is 10111111,time :        240001020000
+# 
+# Current LED output value is 01111111,time :        280001020000
+# 
+# Current LED output value is 11111110,time :        320001020000
+# 
+# Current LED output value is 11111101,time :        360001020000
+# 
+# Current LED output value is 11111011,time :        400001020000
+# 
+# Current LED output value is 11110111,time :        440001020000
+# 
+# Current LED output value is 11101111,time :        480001020000
+# 
+# Current LED output value is 11011111,time :        520001020000
+# 
+# Current LED output value is 10111111,time :        560001020000
+# 
+# Current LED output value is 01111111,time :        600001020000
+# 
+# Current LED output value is 11111110,time :        640001020000
+# 
+# Current LED output value is 11111101,time :        680001020000
+# 
+# Current LED output value is 11111011,time :        720001020000
+# 
+# Current LED output value is 11110111,time :        760001020000
+# 
+# Current LED output value is 11101111,time :        800001020000
+# 
+# Current LED output value is 11011111,time :        840001020000
+# 
+# Current LED output value is 10111111,time :        880001020000
+# 
+# Current LED output value is 01111111,time :        920001020000
+# 
+# Current LED output value is 11111110,time :        960001020000
+# 
+# Break in Module ex3_vlg_tst at D:/FpgaExample/ex3/simulation/modelsim/ex3.vt line 27
+# Simulation Breakpoint: Break in Module ex3_vlg_tst at D:/FpgaExample/ex3/simulation/modelsim/ex3.vt line 27
+# MACRO ./ex3_run_msim_rtl_verilog.do PAUSED at line 17

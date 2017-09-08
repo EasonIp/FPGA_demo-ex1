@@ -1,0 +1,56 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex13_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex13 {D:/FpgaExample/ex13/ex_rom.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex_rom
+# 
+# Top level modules:
+# 	ex_rom
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex13 {D:/FpgaExample/ex13/ex13.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex13
+# 
+# Top level modules:
+# 	ex13
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex13/simulation/modelsim {D:/FpgaExample/ex13/simulation/modelsim/ex13.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex13_vlg_tst
+# 
+# Top level modules:
+# 	ex13_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex13_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex13_vlg_tst 
+# Loading work.ex13_vlg_tst
+# Loading work.ex13
+# Loading work.ex_rom
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module ex13_vlg_tst at D:/FpgaExample/ex13/simulation/modelsim/ex13.vt line 28
+# Simulation Breakpoint: Break in Module ex13_vlg_tst at D:/FpgaExample/ex13/simulation/modelsim/ex13.vt line 28
+# MACRO ./ex13_run_msim_rtl_verilog.do PAUSED at line 18
+add wave  \
+sim:/ex13_vlg_tst/i1/rom_addr \
+sim:/ex13_vlg_tst/i1/cnt
+restart
+run -all
+# Break in Module ex13_vlg_tst at D:/FpgaExample/ex13/simulation/modelsim/ex13.vt line 28

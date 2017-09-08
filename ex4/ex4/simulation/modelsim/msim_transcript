@@ -1,0 +1,139 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex4 {D:/FpgaExample/ex4/ex4.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex4
+# 
+# Top level modules:
+# 	ex4
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex4/simulation/modelsim {D:/FpgaExample/ex4/simulation/modelsim/ex4.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex4_vlg_tst
+# ** Warning: D:/FpgaExample/ex4/simulation/modelsim/ex4.vt(32): (vlog-2597) '4000000000' is being treated as 32-bit signed integer and will overflow.
+# 
+# Top level modules:
+# 	ex4_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex4_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex4_vlg_tst 
+# Loading work.ex4_vlg_tst
+# Loading work.ex4
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Current LED output value is 11111110,time :                   0
+# 
+# Switch mode is 000.
+# Current LED output value is 11111101,time :        335545340000
+# Current LED output value is 11111011,time :        671089660000
+# Current LED output value is 11110111,time :       1006633980000
+# Current LED output value is 11101111,time :       1342178300000
+# Current LED output value is 11011111,time :       1677722620000
+# Current LED output value is 10111111,time :       2013266940000
+# Current LED output value is 01111111,time :       2348811260000
+# Current LED output value is 11111110,time :       2684355580000
+# Current LED output value is 11111101,time :       3019899900000
+# Current LED output value is 11111011,time :       3355444220000
+# Current LED output value is 11110111,time :       3690988540000
+# 
+# Switch mode is 001.
+# Current LED output value is 11111011,time :       4026532860000
+# Current LED output value is 11111101,time :       4362077180000
+# Current LED output value is 11111110,time :       4697621500000
+# Current LED output value is 01111111,time :       5033165820000
+# Current LED output value is 10111111,time :       5368710140000
+# Current LED output value is 11011111,time :       5704254460000
+# Current LED output value is 11101111,time :       6039798780000
+# Current LED output value is 11110111,time :       6375343100000
+# Current LED output value is 11111011,time :       6710887420000
+# Current LED output value is 11111101,time :       7046431740000
+# Current LED output value is 11111110,time :       7381976060000
+# Current LED output value is 01111111,time :       7717520380000
+# 
+# Switch mode is 010.
+# Current LED output value is 11111110,time :       8053064700000
+# Current LED output value is 11111101,time :       8388609020000
+# Current LED output value is 11111011,time :       8724153340000
+# Current LED output value is 11110111,time :       9059697660000
+# Current LED output value is 11101111,time :       9395241980000
+# Current LED output value is 11011111,time :       9730786300000
+# Current LED output value is 10111111,time :      10066330620000
+# Current LED output value is 01111111,time :      10401874940000
+# Current LED output value is 11111110,time :      10737419260000
+# Current LED output value is 11111101,time :      11072963580000
+# Current LED output value is 11111011,time :      11408507900000
+# Current LED output value is 11110111,time :      11744052220000
+# 
+# Switch mode is 011.
+# Current LED output value is 00001000,time :      12079596540000
+# Current LED output value is 11110111,time :      12415140860000
+# Current LED output value is 00001000,time :      12750685180000
+# Current LED output value is 11110111,time :      13086229500000
+# Current LED output value is 00001000,time :      13421773820000
+# Current LED output value is 11110111,time :      13757318140000
+# Current LED output value is 00001000,time :      14092862460000
+# Current LED output value is 11110111,time :      14428406780000
+# Current LED output value is 00001000,time :      14763951100000
+# Current LED output value is 11110111,time :      15099495420000
+# Current LED output value is 00001000,time :      15435039740000
+# Current LED output value is 11110111,time :      15770584060000
+# 
+# Switch mode is 100.
+# Current LED output value is 11101111,time :      16106128380000
+# Current LED output value is 11011111,time :      16441672700000
+# Current LED output value is 10111111,time :      16777217020000
+# Current LED output value is 01111111,time :      17112761340000
+# Current LED output value is 11111110,time :      17448305660000
+# Current LED output value is 11111101,time :      17783849980000
+# Current LED output value is 11111011,time :      18119394300000
+# Current LED output value is 11110111,time :      18454938620000
+# Current LED output value is 11101111,time :      18790482940000
+# Current LED output value is 11011111,time :      19126027260000
+# Current LED output value is 10111111,time :      19461571580000
+# Current LED output value is 01111111,time :      19797115900000
+# 
+# Switch mode is 101.
+# Current LED output value is 10111111,time :      20132660220000
+# Current LED output value is 11011111,time :      20468204540000
+# Current LED output value is 11101111,time :      20803748860000
+# Current LED output value is 11110111,time :      21139293180000
+# Current LED output value is 11111011,time :      21474837500000
+# Current LED output value is 11111101,time :      21810381820000
+# Current LED output value is 11111110,time :      22145926140000
+# Current LED output value is 01111111,time :      22481470460000
+# Current LED output value is 10111111,time :      22817014780000
+# Current LED output value is 11011111,time :      23152559100000
+# Current LED output value is 11101111,time :      23488103420000
+# Current LED output value is 11110111,time :      23823647740000
+# 
+# Switch mode is 110.
+# Current LED output value is 11101111,time :      24159192060000
+# Current LED output value is 11011111,time :      24494736380000
+# Current LED output value is 10111111,time :      24830280700000
+# Current LED output value is 01111111,time :      25165825020000
+# Current LED output value is 11111110,time :      25501369340000
+# Current LED output value is 11111101,time :      25836913660000
+# Current LED output value is 11111011,time :      26172457980000
+# Current LED output value is 11110111,time :      26508002300000
+# Current LED output value is 11101111,time :      26843546620000
+# Current LED output value is 11011111,time :      27179090940000
+# Current LED output value is 10111111,time :      27514635260000
+# Current LED output value is 01111111,time :      27850179580000
+# 
+# Switch mode is 111.
+#  

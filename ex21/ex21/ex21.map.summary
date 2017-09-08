@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Feb 13 22:01:16 2014
+Quartus II 32-bit Version : 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition
+Revision Name : ex21
+Top-level Entity Name : ex21
+Family : Cyclone III
+Total logic elements : 203
+    Total combinational functions : 184
+    Dedicated logic registers : 118
+Total registers : 118
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

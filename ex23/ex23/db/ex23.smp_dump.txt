@@ -1,0 +1,68 @@
+
+State Machine - |ex23|sdram_top:uut_sdramtop|sdram_ctrl:module_001|work_state_r
+Name work_state_r.1011 work_state_r.1010 work_state_r.1001 work_state_r.1000 work_state_r.0111 work_state_r.0110 work_state_r.0101 work_state_r.0100 work_state_r.0011 work_state_r.0010 work_state_r.0001 work_state_r.0000 
+work_state_r.0000 0 0 0 0 0 0 0 0 0 0 0 0 
+work_state_r.0001 0 0 0 0 0 0 0 0 0 0 1 1 
+work_state_r.0010 0 0 0 0 0 0 0 0 0 1 0 1 
+work_state_r.0011 0 0 0 0 0 0 0 0 1 0 0 1 
+work_state_r.0100 0 0 0 0 0 0 0 1 0 0 0 1 
+work_state_r.0101 0 0 0 0 0 0 1 0 0 0 0 1 
+work_state_r.0110 0 0 0 0 0 1 0 0 0 0 0 1 
+work_state_r.0111 0 0 0 0 1 0 0 0 0 0 0 1 
+work_state_r.1000 0 0 0 1 0 0 0 0 0 0 0 1 
+work_state_r.1001 0 0 1 0 0 0 0 0 0 0 0 1 
+work_state_r.1010 0 1 0 0 0 0 0 0 0 0 0 1 
+work_state_r.1011 1 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ex23|sdram_top:uut_sdramtop|sdram_ctrl:module_001|init_state_r
+Name init_state_r.10101 init_state_r.10100 init_state_r.10011 init_state_r.10010 init_state_r.10001 init_state_r.10000 init_state_r.01111 init_state_r.01110 init_state_r.01101 init_state_r.01100 init_state_r.01011 init_state_r.01010 init_state_r.01001 init_state_r.01000 init_state_r.00111 init_state_r.00110 init_state_r.00101 init_state_r.00100 init_state_r.00011 init_state_r.00010 init_state_r.00001 init_state_r.00000 
+init_state_r.00000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+init_state_r.00001 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+init_state_r.00010 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+init_state_r.00011 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+init_state_r.00100 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+init_state_r.00101 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+init_state_r.00110 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+init_state_r.00111 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+init_state_r.01000 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+init_state_r.01001 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+init_state_r.01010 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+init_state_r.01011 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.01100 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.01101 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.01110 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.01111 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10000 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10001 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10010 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10011 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10100 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+init_state_r.10101 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |ex23|video_input:uut_videoinput|iic_gene:uut_iicgene|rstate
+Name rstate.RIDLE rstate.ROVER rstate.RSET1 
+rstate.RIDLE 0 0 0 
+rstate.RSET1 1 0 1 
+rstate.ROVER 1 1 0 
+
+State Machine - |ex23|video_input:uut_videoinput|iic_ctrl:uut_iicctrl|wnstate
+Name wnstate.WA0DWR 
+wnstate.WIRST 0 
+wnstate.WA0DWR 1 
+
+State Machine - |ex23|video_input:uut_videoinput|iic_ctrl:uut_iicctrl|dnstate
+Name dnstate.DSTOP dnstate.D5ACK dnstate.DRDDB dnstate.D4ACK dnstate.DSABR dnstate.DRSTA dnstate.D3ACK dnstate.DWRDB dnstate.D2ACK dnstate.DRABW dnstate.D1ACK dnstate.DSABW dnstate.DSTAR dnstate.DIDLE 
+dnstate.DIDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+dnstate.DSTAR 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+dnstate.DSABW 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+dnstate.D1ACK 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+dnstate.DRABW 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+dnstate.D2ACK 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+dnstate.DWRDB 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+dnstate.D3ACK 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+dnstate.DRSTA 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+dnstate.DSABR 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+dnstate.D4ACK 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+dnstate.DRDDB 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+dnstate.D5ACK 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+dnstate.DSTOP 1 0 0 0 0 0 0 0 0 0 0 0 0 1 

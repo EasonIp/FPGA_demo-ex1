@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ex17">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ex17|myram:myram_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_loj1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

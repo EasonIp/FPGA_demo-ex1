@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Feb 13 22:01:30 2014
+Quartus II 32-bit Version : 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition
+Revision Name : ex21
+Top-level Entity Name : ex21
+Family : Cyclone III
+Device : EP3C5E144C8
+Timing Models : Final
+Total logic elements : 196 / 5,136 ( 4 % )
+    Total combinational functions : 184 / 5,136 ( 4 % )
+    Dedicated logic registers : 118 / 5,136 ( 2 % )
+Total registers : 118
+Total pins : 4 / 95 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 423,936 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 46 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

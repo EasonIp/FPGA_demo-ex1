@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Jan 07 21:29:33 2014
+Quartus II 32-bit Version : 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition
+Revision Name : ex13
+Top-level Entity Name : ex13
+Family : Cyclone III
+Total logic elements : 672
+    Total combinational functions : 417
+    Dedicated logic registers : 521
+Total registers : 521
+Total pins : 10
+Total virtual pins : 0
+Total memory bits : 13,568
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

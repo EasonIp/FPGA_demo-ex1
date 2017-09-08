@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex12\simulation\modelsim
+vex12
+I=kE:=_z3_^<iMlKTTbM;93
+VUHc@nk0hkQV[=KkY@F59e0
+Z1 dD:\FpgaExample\ex12\simulation\modelsim
+w1387368798
+8D:/FpgaExample/ex12/ex12.v
+FD:/FpgaExample/ex12/ex12.v
+L0 2
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex12 -O0
+!s100 f`]_c9`5j0KFn2BJWN:G52
+!s85 0
+!s108 1387368813.046000
+!s107 D:/FpgaExample/ex12/ex12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex12|D:/FpgaExample/ex12/ex12.v|
+!s101 -O0
+vex12_vlg_tst
+!s100 TB]@MHPeeob5Fj3hoHgha0
+I9KK8@4IfB=B4G[A244LDa0
+V@HWIV@]31gWh:Dn4>FF^h2
+R1
+w1387368773
+8D:/FpgaExample/ex12/simulation/modelsim/ex12.vt
+FD:/FpgaExample/ex12/simulation/modelsim/ex12.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1387368813.359000
+!s107 D:/FpgaExample/ex12/simulation/modelsim/ex12.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex12/simulation/modelsim|D:/FpgaExample/ex12/simulation/modelsim/ex12.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex12/simulation/modelsim -O0
+vmy_pll
+Iaj;[]J`2mlk0g?M_QmaPR0
+V[GE<Nz@2BCL4=NfHYN;fh0
+R1
+w1387367981
+8D:/FpgaExample/ex12/my_pll.v
+FD:/FpgaExample/ex12/my_pll.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!s100 4>QKgPD?aX6j3VCKdg[1Q0
+!s85 0
+!s108 1387368812.875000
+!s107 D:/FpgaExample/ex12/my_pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex12|D:/FpgaExample/ex12/my_pll.v|
+!s101 -O0
+vmy_pll_altpll
+IBAR<E470FbE8i[7;l[;EX3
+VJUDQD[gfafn`ZOUFdaQ>C2
+R1
+w1387368191
+8D:/FpgaExample/ex12/db/my_pll_altpll.v
+FD:/FpgaExample/ex12/db/my_pll_altpll.v
+L0 30
+R2
+r1
+31
+R3
+!s100 A71^M;kz58YhZPjT:JaXz1
+!s85 0
+!s108 1387368813.187000
+!s107 D:/FpgaExample/ex12/db/my_pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex12/db|D:/FpgaExample/ex12/db/my_pll_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex12/db -O0
