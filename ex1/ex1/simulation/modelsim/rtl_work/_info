@@ -1,0 +1,43 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FpgaExample\ex1\simulation\modelsim
+vex1
+Io3g;@D_L5mREVKTblb[On3
+V=hX@=dnBBKMJ`;k:P11271
+Z1 dD:\FpgaExample\ex1\simulation\modelsim
+w1384470258
+8D:/FpgaExample/ex1/ex1.v
+FD:/FpgaExample/ex1/ex1.v
+L0 3
+Z2 OV;L;10.0d;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!s100 GX@O8diLhe;GCmXI:a[Df2
+!s85 0
+!s108 1392815141.062000
+!s107 D:/FpgaExample/ex1/ex1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex1|D:/FpgaExample/ex1/ex1.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex1 -O0
+vex1_vlg_tst
+!s100 >Id2?o@mUQHdN<Bc8=[e`0
+I6]N5h3ITM>1aW2Q@z87@k1
+VG3XG7;PI`nHV<WT=^dBlM0
+R1
+w1384471047
+8D:/FpgaExample/ex1/simulation/modelsim/ex1.vt
+FD:/FpgaExample/ex1/simulation/modelsim/ex1.vt
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1392815141.265000
+!s107 D:/FpgaExample/ex1/simulation/modelsim/ex1.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FpgaExample/ex1/simulation/modelsim|D:/FpgaExample/ex1/simulation/modelsim/ex1.vt|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FpgaExample/ex1/simulation/modelsim -O0

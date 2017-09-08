@@ -1,0 +1,70 @@
+# Reading C:/altera/12.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do ex1_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\12.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex1 {D:/FpgaExample/ex1/ex1.v}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex1
+# 
+# Top level modules:
+# 	ex1
+# 
+# vlog -vlog01compat -work work +incdir+D:/FpgaExample/ex1/simulation/modelsim {D:/FpgaExample/ex1/simulation/modelsim/ex1.vt}
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module ex1_vlg_tst
+# 
+# Top level modules:
+# 	ex1_vlg_tst
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs="+acc"  ex1_vlg_tst
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneiii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps ex1_vlg_tst 
+# Loading work.ex1_vlg_tst
+# Loading work.ex1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0led value = 0
+# 
+#            335545340led value = 1
+# 
+#            671089660led value = 0
+# 
+#           1006633980led value = 1
+# 
+#           1342178300led value = 0
+# 
+#           1677722620led value = 1
+# 
+#           2013266940led value = 0
+# 
+#           2348811260led value = 1
+# 
+#           2684355580led value = 0
+# 
+#           3019899900led value = 1
+# 
+#           3355444220led value = 0
+# 
+#           3690988540led value = 1
+# 
+#           4026532860led value = 0
+# 
+#           4362077180led value = 1
+# 
+#           4697621500led value = 0
+# 
+# Break in Module ex1_vlg_tst at D:/FpgaExample/ex1/simulation/modelsim/ex1.vt line 31
+# Simulation Breakpoint: Break in Module ex1_vlg_tst at D:/FpgaExample/ex1/simulation/modelsim/ex1.vt line 31
+# MACRO ./ex1_run_msim_rtl_verilog.do PAUSED at line 17
