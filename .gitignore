@@ -1,0 +1,85 @@
+
+
+
+###sim
+modelsim
+verilog_libs/
+rtl_work/
+*.wlf
+*.bak
+*bak?
+*.do
+!wave.do
+modelsim.ini
+msim_transcript
+
+###
+output_files/
+
+###incremental_d
+incremental_db/
+
+
+#pdf
+*.pdf
+
+#db
+
+*.hdb 
+*.cmp.rdb
+*.cdb 
+*.tdf 
+*.ddb
+*.qmsg 
+*.hsd 
+*.rdb 
+*.ammdb 
+*.bpm
+*.tdb 
+*.hier_info 
+# *.db_info
+*.hif
+*.idb 
+# *.ipinfo 
+*.kpt
+*.logdb 
+#  *.sci
+# *.syn_hier_info 
+*.xml 
+*.rpt 
+*.wlf 
+*.sdo 
+*.vo 
+*.xrf        
+*.dbs 
+*.psm 
+*.qws 
+*.sft        
+
+
+#####
+###################  
+*.com  
+*.class  
+*.dll  
+*.exe  
+*.o  
+*.so  
+  
+# Packages #  
+############  
+# it's better to unpack these files and commit the raw source  
+# git has its own built in compression methods  
+*.7z  
+*.dmg  
+*.gz  
+*.iso  
+*.jar  
+*.rar  
+*.tar  
+*.zip  
+# Logs and databases #  
+######################  
+*.log  
+*.sql  
+*.sqlite
